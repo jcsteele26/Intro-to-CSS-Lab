@@ -1,0 +1,62 @@
+/*Code for header*/
+h1 {
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+}
+/*Sizing for the circle*/
+#pie {
+	margin: auto;
+	position:relative;
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	overflow: hidden;
+	color: white;
+}
+/*Align the text in each slice*/
+.pie_text {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	}
+#red {
+	border: solid white 2px; /*Border width*/
+	/*text-align: center;*/
+	height:50%;
+	width:50%;
+	background-color: red;
+	position: absolute;
+	bottom:50%;
+	right: 50%;
+}
+#yellow {
+	border: solid white 2px;
+	/*text-align: center;*/
+	height:50%;
+	width:50%;
+	background-color: yellow;
+	position: absolute;
+	bottom:50%;
+	left:50%;	
+}
+#green {
+	border: solid white 2px;
+	/*text-align: center;*/
+	height:50%;
+	width:50%;
+	background-color: green;
+	position: absolute;
+	top:50%;
+	left:50%;	
+}
+#blue {
+	border: solid white 2px;
+	/*text-align: center;*/
+	height:50%;
+	width:50%;
+	background-color: blue;
+	position: absolute;
+	top:50%;
+	right:50%;	
+}
